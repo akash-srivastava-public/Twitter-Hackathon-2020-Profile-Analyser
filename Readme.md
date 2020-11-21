@@ -28,7 +28,7 @@ alt="Project Analyser" width="240" height="180" border="10" /></a>
 ### Uses Cases
 
 #### Overall Workflow
-![Use Case-1](https://github.com/AkashSrivastava1721/Profile_Analyser_-Codechella/blob/main/Readme%20Utilities/Project%20Analyser%20Use%20Case.png=50)
+![Use Case-1](https://github.com/AkashSrivastava1721/Profile_Analyser_-Codechella/blob/main/Readme%20Utilities/Project%20Analyser%20Use%20Case.png)
 
 ## Challenges faced during Building this project
 
