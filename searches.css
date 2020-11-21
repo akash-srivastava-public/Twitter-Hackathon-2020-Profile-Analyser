@@ -1,0 +1,26 @@
+body{
+	background-color:#243447;
+	color: #ffffff;
+}
+.header{
+	font-size: 60px;
+	padding-top: 50px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.search input[type=text] {
+  	padding: 6px;
+ 	font-size: 17px;
+}
+.search{
+	font-size: 30px;
+	text-align: center;
+}
+.search button{
+  	padding: 6px;
+  	font-size: 17px;
+	cursor:pointer;
+}
+.search button:hover {
+  background: #ccc;
+}
