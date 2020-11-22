@@ -44,9 +44,18 @@ We can deploy a new feature to Twitter, called Profile Analyzer. It will scan th
 ![Use Case-1](https://github.com/AkashSrivastava1721/Profile_Analyser_-Codechella/blob/main/Readme%20Utilities/profile%20analyzer.jpg)
 
 ### Tech Stack
-
+**FrontEnd**: HTML, CSS, BootStrap.
+**BackEnd**: Flask using Python.
+Databases.
+JSON Objects.
+Twitter API.
+Natural Language Processing based API.
+Visualization tools.
 
 ## Challenges faced during building this project
+1. Implementing Natural Language Processing model was tough in the given time frame. So, we had to look for an API.
+2. One of our team members had an emergency at the eleventh hour. He was handling the Frontend using NodeJS. Other two members had to complete the frontend using their basic knowledge of frontend.
+3. Implementing more dynamism to the project could be tacky in limited time.
 
 ## Our Innovation and Implementation
 
@@ -56,7 +65,8 @@ Tagging the profile of user after performing analysis on their tweets could be a
 
 ### Implementation
 
-User will first enter the twitter handle. Thw Twitter API will return user_timeline 
+User will first enter the twitter handle. Backend will validate if the user handle is valid or not. After validation, the Twitter API will return user_timeline. Backend will pick 500 tweets for now. The Natural Language Processing based API will categorise each tweet into a specific category. The counter will count the tweets in top frequent categories. User data will be bundled into a JSON Object and passed to the database. Frontend will pick data from the Database and display Badges, Analysis charts, Sentiments, top tweets in each category and a Summary with immersive reader for visually impaired user. At the end, the most frequent category will be used to tag the twitter handle.
 ![Implementation-1](https://github.com/AkashSrivastava1721/Profile_Analyser_-Codechella/blob/main/Readme%20Utilities/Implementation.jpg)
 
 ## Conclusion Note
+Most of the features have been implemented to make Twitter easier to use by allowing the user to see the tweet summary of a handle without actually looking at all the tweets. Team Work and good communication among the members was very helpful in building this project.
