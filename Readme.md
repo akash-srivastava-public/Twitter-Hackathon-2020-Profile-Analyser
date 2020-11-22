@@ -17,18 +17,6 @@
 <a href="https://youtu.be/wlZhH8xHxLc"><img src="https://pbs.twimg.com/media/EnJYZEKVoAA8WbX.jpg" 
 alt="Project Analyser" width="240" height="180" border="10" /></a>
 
-## Project Screenshots
-#### First Page
-![Landing page](https://github.com/AkashSrivastava1721/Profile_Analyser_-Codechella.github.io/blob/main/Readme%20Utilities/Screenshot%20(291).png)
-
-#### Proposed UI
-![Proposed UI](https://github.com/AkashSrivastava1721/Profile_Analyser_-Codechella.github.io/blob/main/Readme%20Utilities/proposed%20UI.jpeg)
-(Notice Tech tag here)
-
-#### Charts Implemented
-![Tweet stats](https://github.com/AkashSrivastava1721/Profile_Analyser_-Codechella.github.io/blob/main/Readme%20Utilities/charts.jpg)
-
-
 ## Project Explanation (Problem and Solution)
 ### **Problem Statement**
 
@@ -50,6 +38,18 @@ We can deploy a new feature to Twitter, called Profile Analyzer. It will scan th
 ### Uses Cases
 
 ![Use Case-1](https://github.com/AkashSrivastava1721/Profile_Analyser_-Codechella/blob/main/Readme%20Utilities/profile%20analyzer.jpg)
+
+## Project Screenshots
+#### First Page
+![Landing page](https://github.com/AkashSrivastava1721/Profile_Analyser_-Codechella.github.io/blob/main/Readme%20Utilities/Screenshot%20(291).png)
+
+#### Proposed UI
+![Proposed UI](https://github.com/AkashSrivastava1721/Profile_Analyser_-Codechella.github.io/blob/main/Readme%20Utilities/proposed%20UI.jpeg)
+(Notice Tech tag here)
+
+#### Charts Implemented
+![Tweet stats](https://github.com/AkashSrivastava1721/Profile_Analyser_-Codechella.github.io/blob/main/Readme%20Utilities/charts.jpg)
+
 
 ### Tech Stack
 1. **FrontEnd**: HTML, CSS, BootStrap.
