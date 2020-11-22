@@ -47,4 +47,7 @@ We can deploy a new feature to Twitter, called Profile Analyzer. It will scan th
 
 ## Our Innovation and Implementation
 
+### Implementation
+(https://github.com/AkashSrivastava1721/Profile_Analyser_-Codechella/blob/main/Readme%20Utilities/Implementation.jpg)
+
 ## Conclusion Note
