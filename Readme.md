@@ -44,15 +44,13 @@ We can deploy a new feature to Twitter, called Profile Analyzer. It will scan th
 ![Use Case-1](https://github.com/AkashSrivastava1721/Profile_Analyser_-Codechella/blob/main/Readme%20Utilities/profile%20analyzer.jpg)
 
 ### Tech Stack
-**FrontEnd**: HTML, CSS, BootStrap.
-
-**BackEnd**: Flask using Python.
-
-Databases.
-JSON Objects.
-Twitter API.
-Natural Language Processing based API.
-Visualization tools.
+1. **FrontEnd**: HTML, CSS, BootStrap.
+2. **BackEnd**: Flask using Python.
+3. Databases.
+4. JSON Objects.
+5. Twitter API.
+6. Natural Language Processing based API.
+7. Visualization tools.
 
 ## Challenges faced during building this project
 1. Implementing Natural Language Processing model was tough in the given time frame. So, we had to look for an API.
