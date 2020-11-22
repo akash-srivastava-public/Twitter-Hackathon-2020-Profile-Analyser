@@ -1,0 +1,335 @@
+<!DOCTYPE HTML>
+<style>
+    #header
+    {
+        margin: 100;
+    }
+    </style>
+<div id = "header">
+    <title>Profile Analyser</title>
+    <h1>
+        Welcome to Profile Analyser
+    </h1>
+</div>
+<style>
+    #tab
+    {
+        margin: 100;
+        background-color: aqua;
+    }
+    </style>
+<div id="tab">
+    <style>
+        #myTab
+        {
+            background-color: aqua;
+        }
+    </style>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="badge1" data-toggle="tab" href="#badge" role="tab" aria-controls="badge" aria-selected="true">Badge</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="charts1" data-toggle="tab" href="#charts" role="tab" aria-controls="charts" aria-selected="true">Charts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="summary1" data-toggle="tab" href="#summary" role="tab" aria-controls="summary" aria-selected="false">Summary</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="analysis1" data-toggle="tab" href="#analysis" role="tab" aria-controls="analysis" aria-selected="false">Analysis</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="toptweets2" data-toggle="tab" href="#toptweets" role="tab" aria-controls="toptweets" aria-selected="false">Top Tweets</a>
+          </li>
+      </ul>
+      <div class="tab-content">
+        <div class="tab-pane active" id="badge" role="tabpanel" aria-labelledby="badge">
+            <style>
+                #badge
+                {
+                    background-color:white;
+                    width: 1350px;
+                    padding: 10px;
+                    border: 5px solid gray;
+                    margin: 100;
+                }
+                </style>
+            <div>
+                <!DOCTYPE html>
+                <html>
+                <head>
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+                </head>
+                <body>
+    
+                <div class="container">
+                <h2>Badge</h2>
+                <p>Congratulations!</p>            
+                <img src="badge_legend.png" class="img-circle" alt="Cinque Terre" width="304" height="236"> 
+            </div>
+    </div>
+    
+    </body>
+    </html>
+            </div>
+        </div>
+        <div class="tab-pane" id="charts" role="tabpanel" aria-labelledby="charts">
+            <style>
+                #charts
+                {
+                    width: 1350px;
+                    padding: 10px;
+                    border: 5px solid gray;
+                    margin: 100;
+                }
+                </style>
+            <div>
+                <!DOCTYPE HTML>
+        <html>
+        <head>
+        <script>
+        window.onload = function () 
+        {
+        var chart = new CanvasJS.Chart("chartContainer", 
+        {
+            theme: "dark1",
+            exportFileName: "Doughnut Chart",
+            exportEnabled: true,
+            animationEnabled: true,
+            title:{
+                text: "Chart"
+            },
+            legend:{
+                cursor: "pointer",
+                itemclick: explodePie
+            },
+            data: [{
+                type: "doughnut",
+                innerRadius: 90,
+                showInLegend: true,
+                toolTipContent: "<b>{name}</b>: tweets{y} (#percent%)",
+                indexLabel: "{name} - #percent%",
+                dataPoints: [
+                    { y: 132, name: "News" },
+                    { y: 110, name: "Arts" },
+                    { y: 66, name: "Home and Domestic Life" },
+                    { y: 44, name: "Computer And Technology" },
+                    { y: 33, name: "Health" },
+                    { y: 22, name: "Science" },
+                    { y: 22, name: "Recreation and Activities" },
+                    { y: 11, name: "Business And Economics"},
+                    { y: 11, name: "Sports" }
+                ]
+            }]
+        });
+        chart.render();
+        function explodePie (e) {
+            if(typeof (e.dataSeries.dataPoints[e.dataPointIndex].exploded) === "undefined" || !e.dataSeries.dataPoints[e.dataPointIndex].exploded) {
+                e.dataSeries.dataPoints[e.dataPointIndex].exploded = true;
+            } else {
+                e.dataSeries.dataPoints[e.dataPointIndex].exploded = false;
+            }
+            e.chart.render();
+        }
+    
+        }
+        </script>
+        </head>
+        <body>
+        <div id="chartContainer" style="height: 500px; width: 100%;"></div>
+        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+        </body>
+        </html>
+            </div>
+        </div>
+        <style>
+            #summary
+            {
+                width: 1350px;
+                padding: 10px;
+                border: 5px solid gray;
+                margin: 100;
+            }
+            </style>
+        <div class="tab-pane" id="summary" role="tabpanel" aria-labelledby="summary">
+            
+            <div>
+                <!DOCTYPE html>
+                <html>
+                <head>
+                </head>
+                <body>
+    
+                <h2>Profile Summary</h2>
+    
+                <div>
+                    <img src="http://pbs.twimg.com/profile_images/1115644092329758721/AFjOr-K8_normal.jpg" alt="Jack" width="100" height="100">
+                </div>
+                <div>
+                    <p><b>Name</b>- Jack----<span class="badge">News</span></p>
+                    <p><b>Date of Recent Tweet</b>- Jack</p>
+                    <p><b>Date of Joining Twitter</b>- Jack</p>
+                    <p><b>Followers</b>- Jack</p>
+                    <p><b>Likes</b>- Jack</p>
+                    <p>
+                        Jack has tweeted mostly on the topic <b>News</b>.
+                        However,Jack has also shown interest in tweeting about Arts,Technology and Sciences.
+                    </p>
+                </div>
+    
+                </body>
+                </html>
+    
+            </div>
+        </div>
+        <div class="tab-pane" id="analysis" role="tabpanel" aria-labelledby="analysis">
+            <style>
+                #analysis
+                {
+                    width: 1350px;
+                    padding: 10px;
+                    border: 5px solid gray;
+                    margin: 100;
+                }
+            </style>
+            <div>
+                <!DOCTYPE html>
+    <html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    * {box-sizing: border-box}
+    
+    .container {
+      width: 100%;
+      background-color: #ddd;
+    }
+    
+    .skills {
+      text-align: right;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      color: white;
+    }
+    
+    .html {width: 80%; background-color: #4CAF50;}
+    .css {width: 5%; background-color: #2196F3;}
+    .js {width: 15%; background-color: #f44336;}
+    </style>
+    </head>
+    <body>
+    
+    <h1>Sentiment Analysis</h1>
+    
+    <p>Positive Person</p>
+    <div class="container">
+      <div class="skills html">80%</div>
+    </div>
+    
+    <p>Neutral Person</p>
+    <div class="container">
+      <div class="skills css">5%</div>
+    </div>
+    
+    <p>Negative Person</p>
+    <div class="container">
+      <div class="skills js">15%</div>
+    </div>
+        
+    
+    </body>
+    </html>
+    
+            </div>
+        </div>
+        <div class="tab-pane" id="toptweets" role="tabpanel" aria-labelledby="toptweets">
+            <h1>Top Tweets Catagorywise!</h1>
+            <style>
+                #toptweets
+                {
+                    width: 1350px;
+                    padding: 10px;
+                    border: 5px solid gray;
+                    margin: 100;
+                }
+            </style>
+             <style>
+                #toptweets1
+                {
+                    width: 1000px;
+                    padding: 10px;
+                    border: 5px solid gray;
+                    margin: 150;
+                }
+                #toptweets3
+                {
+                    width: 500px;
+                    padding: 10px;
+                    border: 5px solid gray;
+                    margin: 150;
+                }
+            </style>
+            <div>
+                <div id="toptweets1">
+                    <p><b>Sports</b></p>
+                    <div id="toptweets3">
+                        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Welcome, Mudge! <a href="https://t.co/hl9HiRjGtg">https://t.co/hl9HiRjGtg</a></p>&mdash; jack (@jack) <a href="https://twitter.com/jack/status/1328426021041754112?ref_src=twsrc%5Etfw">November 16, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>                    </div>
+                </div>
+                <div id="toptweets1">
+                    <p><b>Arts</b></p>
+                    <div id="toptweets3">
+                        <blockquote class="twitter-tweet"><p lang="und" dir="ltr">❤️ <a href="https://t.co/mkiLa9uubl">https://t.co/mkiLa9uubl</a></p>&mdash; jack (@jack) <a href="https://twitter.com/jack/status/1329527647693508608?ref_src=twsrc%5Etfw">November 19, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </div>
+                <div id="toptweets1">
+                    <p><b>Home and Domestic Life</b></p>
+                    <div id="toptweets3">
+                        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">If we ask you to stay home we should also send you money so you can can do so.</p>&mdash; Andrew Yang🧢🇺🇸 (@AndrewYang) <a href="https://twitter.com/AndrewYang/status/1329218347192496128?ref_src=twsrc%5Etfw">November 19, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </div>
+                <div id="toptweets1">
+                    <p><b>Computer and Technology</b></p>
+                    <div id="toptweets3">
+                        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">1/ Patent trolls are a massive threat to innovation. <br><br>Every crypto firm and project should join the Crypto Open Patent Alliance -- for themselves and for the ecosystem. <a href="https://t.co/mTVHxe2kJN">https://t.co/mTVHxe2kJN</a></p>&mdash; Jerry Brito 🇫🇷 (@jerrybrito) <a href="https://twitter.com/jerrybrito/status/1321459755488104448?ref_src=twsrc%5Etfw">October 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </div>
+                <div id="toptweets1">
+                    <p><b>Health</b></p>
+                    <div id="toptweets3">
+                        <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/EndSARS?src=hash&amp;ref_src=twsrc%5Etfw">#EndSARS</a> because people deserve to sleep in peace.</p>&mdash; ST. (@seyitaylor) <a href="https://twitter.com/seyitaylor/status/1316940828821082113?ref_src=twsrc%5Etfw">October 16, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </div>
+                <div id="toptweets1">
+                    <p><b>Science</b></p>
+                    <div id="toptweets3">
+                        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">And <a href="https://twitter.com/_KarenHao?ref_src=twsrc%5Etfw">@_KarenHao</a> just reported on a radical new technique to train AI models. It’s called “less than one”-shot learning (and yes, that’s a mythical rhinocorn) <a href="https://twitter.com/hashtag/EmTechMIT?src=hash&amp;ref_src=twsrc%5Etfw">#EmTechMIT</a> <a href="https://twitter.com/hashtag/TechReviewEvents?src=hash&amp;ref_src=twsrc%5Etfw">#TechReviewEvents</a> <a href="https://t.co/5KPhlMdebE">https://t.co/5KPhlMdebE</a></p>&mdash; MIT Technology Review (@techreview) <a href="https://twitter.com/techreview/status/1318615418270027776?ref_src=twsrc%5Etfw">October 20, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>                    </div>
+                </div>
+                <div id="toptweets1">
+                    <p><b>Recreation and Activities</b></p>
+                    <div id="toptweets3">
+                        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Join <a href="https://twitter.com/CashApp?ref_src=twsrc%5Etfw">@CashApp</a>! <a href="https://twitter.com/hashtag/Bitcoin?src=hash&amp;ref_src=twsrc%5Etfw">#Bitcoin</a> <a href="https://t.co/SbYANIZyix">https://t.co/SbYANIZyix</a></p>&mdash; jack (@jack) <a href="https://twitter.com/jack/status/1329137255026311168?ref_src=twsrc%5Etfw">November 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>                    </div>
+                </div>
+                <div id="toptweets1">
+                    <p><b>Business and Economics</b></p>
+                    <div id="toptweets3">
+                        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Today <a href="https://twitter.com/Twitter?ref_src=twsrc%5Etfw">@twitter</a> is investing $100 million from our balance sheet in Black, Latinx and other underserved communities in the US, and we made it easy for other companies to do the same. Here’s how we did it - send this to the CFO and Treasurer at your company so you can join us!</p>&mdash; Ned Segal (@nedsegal) <a href="https://twitter.com/nedsegal/status/1326894501273628672?ref_src=twsrc%5Etfw">November 12, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>                    </div>
+                </div>
+                <div id="toptweets1">
+                    <p><b>News</b></p>
+                    <div id="toptweets3">
+                        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Thank you members of the Judiciary Committee for the opportunity to speak with the American people about Twitter and your concerns around censorship and suppression of a specific news article, and generally what we saw in the 2020 US Elections conversation.</p>&mdash; jack (@jack) <a href="https://twitter.com/jack/status/1328721286474788865?ref_src=twsrc%5Etfw">November 17, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      
+      <script>
+        $(function () {
+          $('#myTab li:last-child a').tab('show')
+        })
+      </script>
+</div>
