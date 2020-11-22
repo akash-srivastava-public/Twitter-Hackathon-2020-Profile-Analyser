@@ -45,7 +45,9 @@ We can deploy a new feature to Twitter, called Profile Analyzer. It will scan th
 
 ### Tech Stack
 **FrontEnd**: HTML, CSS, BootStrap.
+
 **BackEnd**: Flask using Python.
+
 Databases.
 JSON Objects.
 Twitter API.
