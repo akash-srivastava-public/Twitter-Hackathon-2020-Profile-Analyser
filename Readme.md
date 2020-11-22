@@ -23,6 +23,7 @@ alt="Project Analyser" width="240" height="180" border="10" /></a>
 
 ## Project Explaination (Problem and Solution)
 **Problem Statement**
+
 Everyone wants to see certain kinds of tweets on their dashboard, for example, Motivational or Technical. Finding out and following those kinds of handles is a tedious task as Twitter Bio can be abstract and deceiving at times. We have to find a way to quickly have an idea about what kind of content is generally tweeted by a handle so that all users, especially visually impaired users can save their time of manually analyzing a profile by going through all the tweets one by one.
 
 ## Tech Stack used and Use Case
