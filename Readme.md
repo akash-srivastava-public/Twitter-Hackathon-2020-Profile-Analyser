@@ -17,9 +17,6 @@
 <a href="https://www.youtube.com/results?search_query=hackathon"><img src="https://i.ytimg.com/an_webp/5ZrYKULK-10/mqdefault_6s.webp?du=3000&sqp=CJbX4v0F&rs=AOn4CLCzbfSaW9Z-4wDwgwNTfDvwm_uZFQ" 
 alt="Project Analyser" width="240" height="180" border="10" /></a>
 
-## Project Website Link
-
-## Project Repository Using Guidelines
 
 ## Project Explanation (Problem and Solution)
 ### **Problem Statement**
