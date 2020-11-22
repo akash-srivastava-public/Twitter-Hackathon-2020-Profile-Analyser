@@ -51,6 +51,7 @@ We can deploy a new feature to Twitter, called Profile Analyzer. It will scan th
 5. Twitter API.
 6. Natural Language Processing based API.
 7. Visualization tools.
+8. Cloud Services: Heroku for hosting
 
 ## Challenges faced during building this project
 1. Implementing Natural Language Processing model was tough in the given time frame. So, we had to look for an API.
