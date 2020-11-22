@@ -43,11 +43,20 @@ We can deploy a new feature to Twitter, called Profile Analyzer. It will scan th
 
 ![Use Case-1](https://github.com/AkashSrivastava1721/Profile_Analyser_-Codechella/blob/main/Readme%20Utilities/profile%20analyzer.jpg)
 
+### Tech Stack
+
+
 ## Challenges faced during building this project
 
 ## Our Innovation and Implementation
 
+### Innovation
+
+Tagging the profile of user after performing analysis on their tweets could be a blessing for Twitter users. It will be a great ease of access tool which will save the time of going through all the tweets one by one to judge the category of contentent tweeted.
+
 ### Implementation
+
+User will first enter the twitter handle. Thw Twitter API will return user_timeline 
 ![Implementation-1](https://github.com/AkashSrivastava1721/Profile_Analyser_-Codechella/blob/main/Readme%20Utilities/Implementation.jpg)
 
 ## Conclusion Note
