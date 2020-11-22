@@ -1,7 +1,7 @@
 # CODECHELLA
 ![#codechella #twitter](https://pbs.twimg.com/media/EnJYZEKVoAA8WbX.jpg)
 
-# Welcome to Our Team Project: "Profile Analyser"
+# Welcome to Our Team Project: "Profile Analyzer"
 
 ## Team Introduction 
 
