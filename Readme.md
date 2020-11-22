@@ -21,10 +21,21 @@ alt="Project Analyser" width="240" height="180" border="10" /></a>
 
 ## Project Repository Using Guidelines
 
-## Project Explaination (Problem and Solution)
+## Project Explanation (Problem and Solution)
 **Problem Statement**
 
 Everyone wants to see certain kinds of tweets on their dashboard, for example, Motivational or Technical. Finding out and following those kinds of handles is a tedious task as Twitter Bio can be abstract and deceiving at times. We have to find a way to quickly have an idea about what kind of content is generally tweeted by a handle so that all users, especially visually impaired users can save their time of manually analyzing a profile by going through all the tweets one by one.
+
+**Solution**
+
+We can deploy a new feature to Twitter, called Profile Analyzer. It will scan the tweets posted on any handle and give a brief report, which will include:
+
+1. Badge: To show how actively the user tweets.
+2. Analysis Report: Graphs and Charts showing the percentage of tweets based on different categories.
+3. Top Tweets: Most popular tweets of all the categories.
+4. Sentiments: To know the user mindset if it is Positive, Negative, or Neutral.
+5. Tags: To tag each user profile by the most common category of his tweet.
+6. Summary: A summary of the complete analysis report with an immersive reader for ease of access to visually impaired users.
 
 ## Tech Stack used and Use Case
 
